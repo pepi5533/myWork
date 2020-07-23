@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #415d4f;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 3%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  color: greenyellow;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+header nav ul li {
+  border: 2px solid black;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  text-align: center;
+  background-color: indigo;
+  list-style: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header nav ul li:hover {
+  -webkit-transform: scale(1.2) translateY(-0.5rem);
+          transform: scale(1.2) translateY(-0.5rem);
+  -webkit-box-shadow: 7px 6px 7px black;
+          box-shadow: 7px 6px 7px black;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  color: whitesmoke;
+  display: inline-block;
+}
+
+header section p {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  padding-top: 5%;
+  font-style: italic;
+  color: turquoise;
+  font-size: larger;
+}
+
+header section span {
+  display: block;
+  padding-left: 41.2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+header section span a {
+  border: 2px solid black;
+  padding: 2% 10%;
+  background-color: indigo;
+  color: whitesmoke;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+header section span a:hover {
+  -webkit-transform: scale(1.2) translateY(-0.5rem);
+          transform: scale(1.2) translateY(-0.5rem);
+  -webkit-box-shadow: 10px 6px 4px black;
+          box-shadow: 10px 6px 4px black;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+main section article {
+  border: 2px solid black;
+  background-color: #bfb7c7;
+  -webkit-box-shadow: 8px 8px 8px black;
+          box-shadow: 8px 8px 8px black;
+  -ms-flex-preferred-size: 29%;
+      flex-basis: 29%;
+  margin: 2%;
+  padding: 5%;
+}
+
+main section article h2 {
+  padding-bottom: 10%;
+}
+
+footer {
+  padding: 5%;
+  background-color: #c8d6bf;
+}
+
+footer pre {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  position: absolute;
+  font-size: 1.1vw;
+}
+
+footer aside {
+  padding-left: 60%;
+}
+
+footer aside p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  position: absolute;
+  font-size: 1.3vw;
+}
+
+footer aside div {
+  margin-left: 60%;
+}
+
+footer aside div a:nth-child(1) {
+  padding: 13%;
+  border-radius: 100%;
+  background-image: url("img/Facebook-512.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer aside div a:nth-child(2) {
+  margin-left: 40%;
+  border-radius: 100%;
+  padding: 13%;
+  background-image: url("img/twitter_circle-512.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */

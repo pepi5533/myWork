@@ -1,0 +1,42 @@
+.inputHeading {
+  text-align: center;
+}
+
+.inputForm {
+  text-align: center;
+}
+
+.userImg {
+  margin-left: 34%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.userHeading {
+  text-align: center;
+}
+
+.userLocation {
+  text-align: center;
+}
+
+.userBio {
+  text-align: center;
+}
+
+.userUl {
+  text-align: center;
+  list-style: none;
+}
+
+.repoName {
+  font-weight: bolder;
+}
+
+.repoId {
+  font-weight: bolder;
+}
+
+.userLi {
+  padding: 1%;
+}

@@ -1,0 +1,138 @@
+*  {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-color: #DCDCDC;
+}
+
+#myBtn {
+  padding: 0.5%;
+  padding-left: 0.8%;
+  padding-right: 0.8%;
+  cursor: pointer;
+  background-color: #176171;
+  color: #29b8b2;
+  font-family: 'Playfair Display', serif;
+}
+
+#myBtn:hover {
+  transform: translateY(-0.4em);
+  transition: 0.5s ease-in-out;
+}
+
+.userLink {
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+.userHeading {
+  text-align: center;
+  padding-top: 15%;
+  margin: 0;
+  color: #79cdcd;
+  font-size: 3vw;
+  font-family: 'Playfair Display', serif;
+}
+
+.userInput {
+  margin-left: 41%;
+  margin-top: 3%;
+  padding: 0.2%;
+  font-size: 1em;
+  font-family: 'Playfair Display', serif;
+}
+
+.userInput:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  box-shadow: 5px 5px 5px black;
+}
+
+.userNameBg {
+  background: radial-gradient(#2090bd, #490979 );
+  width: inherit;
+  height: 100vh;
+}
+
+.chatHeading {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  padding: 3%;
+  background: linear-gradient(#176171, #777aca);
+  color: #fbead3;
+}
+
+.myInput {
+  position: fixed;
+  width: 25vw;
+  bottom: 3%;
+  left: 39.5%;
+}
+
+.msgInput {
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3vw;
+}
+
+.msgBtn {
+  margin-left: 6%;
+  position: absolute;
+  top: 18%;
+  font-family: 'Playfair Display', serif;
+  cursor: pointer;
+}
+
+.myUl {
+  list-style: none;
+  padding: 0;
+}
+
+.Messages-messageCurrentMember > .MessageContent {
+  margin-left: 85%;
+  margin-top: 0.4%;
+}
+
+.Messages-messageCurrentMember > .MessageContent > .username {
+  font-size: 1vw;
+  font-family: 'Playfair Display', serif;
+}
+
+.Messages-messageCurrentMember > .MessageContent > .text {
+  background-color: #7b95de;
+  margin-bottom: 3%;
+  border-radius: 10%;
+  text-align: center;
+  line-height: 4vh;
+  font-size: 1.5vw;
+  width: 8vw;
+  font-family: 'Playfair Display', serif;
+}
+
+.Messages-message > .MessageContent {
+  margin-left: 6%;
+  margin-top: 0.4%;
+}
+
+.Messages-message > .MessageContent > .username {
+  font-size: 1vw;
+  font-family: 'Playfair Display', serif;
+}
+
+.Messages-message > .MessageContent > .text {
+  background-color: #79cdcd;
+  margin-bottom: 2%;
+  border-radius: 10%;
+  text-align: center;
+  line-height: 4vh;
+  font-size: 1.5vw;
+  width: 8vw;
+  font-family: 'Playfair Display', serif;
+}

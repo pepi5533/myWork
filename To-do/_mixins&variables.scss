@@ -1,0 +1,7 @@
+@mixin font {
+    font-size: larger;
+    font-family: 'Trade Winds', cursive;
+}
+@mixin border {
+    border: 2px solid black;
+}
