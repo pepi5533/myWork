@@ -1,0 +1,46 @@
+.myButton {
+  margin-left: 44%;
+  margin-top: 2%;
+  padding: 0.5%;
+} 
+.name {
+  text-align: center;
+  background-color: silver;
+  padding: 1%;
+}
+.country {
+  text-align: center;
+  background-color: silver;
+  padding: 1%;
+}
+.city {
+  text-align: center;
+  background-color: silver;
+  padding: 1%;
+}
+.gender {
+  text-align: center;
+  padding: 1%;
+  background-color: silver;
+}
+.age {
+  text-align: center;
+  background-color: silver;
+  padding: 1%;
+}
+.email {
+  text-align: center;
+  background-color: silver;
+  padding: 1%;
+}
+.img {
+  margin-left: 46%;
+}
+.refresh {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  bottom: 0;
+  background-color: slategrey;
+}
